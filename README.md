@@ -1,11 +1,11 @@
-​# Phase diagram of Stochastic Gradient Descent in high-dimensional two-layer neural networks
+​# Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features
 
 ## Description
 
 Repository for the paper [*Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*](https://arxiv.org/abs/2202.00293). 
 
 <p float="center">
-  <img src="https://github.com/rodsveiga/phdiag_sgd/blob/main/figures/arXiv_fig01_image.jpg" height="350">
+  <img src="https://github.com/rodsveiga/sgf_dyn/blob/main/figures/fig04_image.jpg" height="350">
 </p>
 
 
