@@ -1,4 +1,4 @@
-​# Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features
+# Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features
 
 ## Description
 
