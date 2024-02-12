@@ -14,8 +14,8 @@ root = '/home/rveiga/simul_ib/gmodel_term3/results/'
 ntest = 1e5
 n_SGD = 1
 
-d = 100 
-n = 40  
+d = 1000 
+n = 400  
 nS = 1000
 n_SGD = 1
 lr = 1./d
@@ -23,15 +23,9 @@ snr = 1./5.
 n_it_max = 1e+6 
 np_points = 50 
 only_last = False
-#p_ = np.array([1, 20, 40, 60, 80, 100, 120, 420, 440, 460, 480, 500, 520, 540])
-#p_ = np.array([140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400])
-#p_ = np.array([280, 300, 320, 340, 360, 380, 400])
 #######################
 intI = 0
 intF = 28
-#p__ = np.arange(0, d, int(d/np_points))
-#p__[0] = 1
-#p_ = p__[intI:intF]
 
 #### List of p's
 if np.abs(d-1000) > 0:
