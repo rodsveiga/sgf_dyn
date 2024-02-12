@@ -24,7 +24,7 @@ def xlog_scale(log_x_max, scale, log_base= 10):
 np_points = 50
 ###
 intI = 0
-#intF = 7
+intF = 7
 ###
 #intI = 7
 #intF = 14
@@ -33,12 +33,12 @@ intI = 0
 #intF = 21
 ###
 #intI = 21
-intF = 28
+#intF = 28
 ##### Parameters
 # Data dimension
-d = 100
+d = 1000
 # Number of data points
-n = 40
+n = 400
 # Number of S random instances
 nS = 1000
 # Signal-to-noise ratio
@@ -66,13 +66,6 @@ log_x_max = (np.log10(n_it_max)-1).astype(int)
 plot_list = xlog_scale(log_x_max, scale=1., log_base= 10)
 if only_end:
     plot_list = plot_list[-1:]
-####################################################################
-#### List of p's
-#p__ = np.arange(0, d, int(d/np_points))
-#p__[0] = 1
-#p_ = p__[intI:intF]
-#pID = '{:02d}'.format(intI) + '{:02d}'.format(intF) 
-####################################################################
 #### List of p's
 if np.abs(d-1000) > 0:
     d_AUX = 1000
@@ -141,9 +134,6 @@ for k in np.arange(0,nSlen*plen, nSlen):
     with open(path+'p%d_S.npy' % p_[count_aux], 'wb') as f:
         np.save(f, np.array(Sp_))
     count_aux += 1
-
-#with open(path+'__full_result.pkl','wb') as fp:
-#    pickle.dump(result, fp)
 
 
 plot_list0 = np.insert(plot_list, 0, 0)

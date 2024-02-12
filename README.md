@@ -30,5 +30,5 @@ The folder ```/sim``` and ```/ode``` use cython code. To build, run `python setu
 
 ## Reference
 
-- *Phase diagram of Stochastic Gradient Descent in high-dimensional two-layer neural networks*; R. Veiga, A. Remizova, N. Macris; [arXiv:2202.00293](https://arxiv.org/abs/2202.00293) [stat.ML]
+- *Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*; R. Veiga, A. Remizova, N. Macris; [arXiv:2202.00293](https://arxiv.org/abs/2202.00293) [stat.ML]
 
