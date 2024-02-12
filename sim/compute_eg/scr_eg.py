@@ -8,8 +8,7 @@ from compute_eg import eg
 from collections import defaultdict
 
 
-root = '/home/rveiga/simul_ib/gmodel_term3/results/'
-#root = '/localhome/rveiga/Dropbox/Research/trained_models/'
+root ='../'
 
 ntest = 1e5
 n_SGD = 1
@@ -63,9 +62,9 @@ gd  = 1
 
 
 if gd > 0:
-    folder =  root + 'GD/lr%.0e_d%d_n%d_snr%.0e_nS%d_Nmax%.0e_np%d/' % (lr, d, n, snr, nS, n_it_max, np_points)
+    folder =  root + 'gd/lr%.0e_d%d_n%d_snr%.0e_nS%d_Nmax%.0e_np%d/' % (lr, d, n, snr, nS, n_it_max, np_points)
 else:
-    folder = root + 'SGD/lr%.0e_d%d_n%d_snr%.0e_nS%d_nsgd%d_Nmax%.0e_np%d/' % (lr, d, n, snr, nS, n_SGD, n_it_max, np_points)
+    folder = root + 'sgd/lr%.0e_d%d_n%d_snr%.0e_nS%d_nsgd%d_Nmax%.0e_np%d/' % (lr, d, n, snr, nS, n_SGD, n_it_max, np_points)
 
 
 eg_folder = folder + 'eg'
