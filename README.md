@@ -19,9 +19,9 @@ In this repository we provide the code and some guided examples to help the read
 
 | Folder ```/sim``` (simulations) | Description                                                                           |
 |---------------------------------|---------------------------------------------------------------------------------------|
-| ```/gd```                       | ```scrGD.py```: script to train GD importing Cython code from ```trainGD.pyx```       |
-| ```/sgd```                      | ```scrSGD.py```: script to train SGD importing Cython code from ```trainSGD.pyx```    |
-| ```/compute_eg```               | ```scrSGD.py```: script to compute EG importing Cython code from ```compute_eg.pyx``` |                         
+| ```/gd```                       | ```scrGD.py```: script to train GD importing cython code from ```trainGD.pyx```       |
+| ```/sgd```                      | ```scrSGD.py```: script to train SGD importing cython code from ```trainSGD.pyx```    |
+| ```/compute_eg```               | ```scrSGD.py```: script to compute EG importing cython code from ```compute_eg.pyx``` |                         
 
 The notebooks `how_to.ipynb` inside each subfolder are intended to be self-explanatory.
 
@@ -33,7 +33,7 @@ The notebooks `how_to.ipynb` inside each subfolder are intended to be self-expla
 
 ## Building cython code
 
-The folder ```/sim``` and ```/ode``` use cython code. To build, run `python setup.py build_ext --inplace` on the respective folder. Then simply start a python session and do whether `from sim import sim` or `from ode import ode` and use the imported function as described in the `how_to.ipynb` notebooks.
+The subfolders in ```/sim`` use cython code. To build, run `python setup.py build_ext --inplace` on the respective subfolder. Then simply start a python session and import the respective function as described in the `how_to.ipynb` notebooks.
 
 ## Reference
 
