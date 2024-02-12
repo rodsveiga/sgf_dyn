@@ -17,12 +17,19 @@ Repository for the paper [*Stochastic Gradient Flow Dynamics of Test Risk and it
 
 In this repository we provide the code and some guided examples to help the reader to reproduce the figures. The repository is structured as follows.
 
-| File                          | Description                                                                                                                                                    |
-|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ```/sim``` | ```sim.py``` is the simulation class, which imports cython code from ```simcy.pyx```. ```setup.py``` is an auxiliar buinding file for cython   |
-| ```/ode``` | ```ode.py``` is the ODE solver class, which imports cython code from ```odecy.pyx```. ```setup.py``` is an auxiliar buinding file for cython |                              |
+| Folder ```/sim``` (simulations) | Description                                                                           |
+|---------------------------------|---------------------------------------------------------------------------------------|
+| ```/gd```                       | ```scrGD.py```: script to train GD importing Cython code from ```trainGD.pyx```       |
+| ```/sgd```                      | ```scrSGD.py```: script to train SGD importing Cython code from ```trainSGD.pyx```    |
+| ```/compute_eg```               | ```scrSGD.py```: script to compute EG importing Cython code from ```compute_eg.pyx``` |                         
 
-The notebooks are self-explanatory.
+The notebooks `how_to.ipynb` inside each subfolder are intended to be self-explanatory.
+
+| Folder ```/theory``` (theoretical results) | Description                                                                           |
+|--------------------------------------------|---------------------------------------------------------------------------------------|
+| ```/gd```                                  | ```scrGD.py```: A       |
+| ```/sgd```                                 | ```scrSGD.py```: B    |
+| ```/compute_eg```                          | ```scrSGD.py```: C |   
 
 ## Building cython code
 
@@ -30,5 +37,5 @@ The folder ```/sim``` and ```/ode``` use cython code. To build, run `python setu
 
 ## Reference
 
-- *Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*; R. Veiga, A. Remizova, N. Macris; [arXiv:2202.00293](https://arxiv.org/abs/2202.00293) [stat.ML]
+- *Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*; Rodrigo Veiga, Anastasia Remizova and Nicolas Macris; [arXiv:2202.00293](https://arxiv.org/abs/2202.00293) [stat.ML]
 
