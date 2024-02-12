@@ -37,5 +37,5 @@ The subfolders in `/sim` use cython code. To build, run `python setup.py build_e
 
 ## Reference
 
-- *Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*; Rodrigo Veiga, Anastasia Remizova and Nicolas Macris; [arXiv:2202.00293](https://arxiv.org/abs/2202.00293) [stat.ML]
+- *Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*; Rodrigo Veiga, [*Anastasia Remizova*](https://github.com/feathernox) and Nicolas Macris; [arXiv:2202.00293](https://arxiv.org/abs/2202.00293) [stat.ML]
 
