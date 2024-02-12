@@ -33,7 +33,7 @@ The notebooks `how_to.ipynb` inside each subfolder are intended to be self-expla
 
 ## Building cython code
 
-The subfolders in ```/sim`` use cython code. To build, run `python setup.py build_ext --inplace` on the respective subfolder. Then simply start a python session and import the respective function as described in the `how_to.ipynb` notebooks.
+The subfolders in `/sim` use cython code. To build, run `python setup.py build_ext --inplace` on the respective subfolder. Then simply start a python session and import the respective function as described in the `how_to.ipynb` notebooks.
 
 ## Reference
 
