@@ -2,7 +2,7 @@
 
 ## Description
 
-Repository for the paper [*Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*](https://arxiv.org/abs/2202.00293). 
+Repository for the paper [*Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*](https://arxiv.org/abs/2402.07626). 
 
 <p float="center">
   <img src="https://github.com/rodsveiga/sgf_dyn/blob/main/figures/fig04_image.jpg" height="350">
@@ -25,11 +25,10 @@ In this repository we provide the code and some guided examples to help the read
 
 The notebooks `how_to.ipynb` inside each subfolder are intended to be self-explanatory.
 
-| Folder ```/theory``` (theoretical results) | Description                                                                           |
-|--------------------------------------------|---------------------------------------------------------------------------------------|
-| ```/gd```                                  | ```scrGD.py```: A       |
-| ```/sgd```                                 | ```scrSGD.py```: B    |
-| ```/compute_eg```                          | ```scrSGD.py```: C |   
+| Folder ```/theory``` (theoretical results) | Description                               |
+|--------------------------------------------|-------------------------------------------|
+| ```theory.py```                            | Code                                      |
+| ```scp_theory.py`                          | Scrip to obtain the theoretical results   | 
 
 ## Building cython code
 
@@ -37,5 +36,5 @@ The subfolders in `/sim` use cython code. To build, run `python setup.py build_e
 
 ## Reference
 
-- *Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*; Rodrigo Veiga, [*Anastasia Remizova*](https://github.com/feathernox) and Nicolas Macris; [arXiv:2202.00293](https://arxiv.org/abs/2202.00293) [stat.ML]
+- *Stochastic Gradient Flow Dynamics of Test Risk and its Exact Solution for Weak Features*; Rodrigo Veiga, Anastasia Remizova and Nicolas Macris; [arXiv:2402.07626](https://arxiv.org/abs/2402.07626) [stat.ML]
 
