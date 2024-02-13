@@ -28,7 +28,7 @@ The notebooks `how_to.ipynb` inside each subfolder are intended to be self-expla
 | Folder ```/theory``` (theoretical results) | Description                               |
 |--------------------------------------------|-------------------------------------------|
 | ```theory.py```                            | Code                                      |
-| ```scp_theory.py`                          | Scrip to obtain the theoretical results   | 
+| ```scp_theory.py```                        | Scrip to obtain the theoretical results   | 
 
 ## Building cython code
 
